@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Eevee</title>
+</head>
+<body>
+  
+  <section>
+    <div class="circle"></div>
+    <header><a href="#"><img src="logo.png" class="logo" alt="logo"></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pokemon</a></li>
+        <li><a href="#">What's new</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+    </header>
+    <div class="content">
+      <div class="textBox">
+        <h2> It's not just a Pokemon <br> It's<span> Eevee</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, rerum velit nesciunt perspiciatis hic alias in minima voluptatem fugit ab quia, expedita tempore aliquam ut, nobis obcaecati enim illo quaerat.</p>
+      <a href="#">Lear More</a>
+      </div>
+      <div class="imgBox">
+        <img src="eevee.png" class="eevee">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="eevee2.png" onclick="imgSlider('eevee.png')"></li>
+      <li><img src="flae2.png" onclick="imgSlider('flae.png')"></li>
+      <li><img src="vap2.png" onclick="imgSlider('vap.png')"></li>
+    </ul>
+<ul class="sci">
+  <li><a href="#"><img src="facebook.png"></a></li>
+  <li><a href="#"><img src="twitter.png"></a></li>
+  <li><a href="#"><img src="instagram.png"></a></li> 
+
+</ul>
+  </section>
+  <script type="text/javascript">
+  function imgSlider(anything){
+    document.querySelector('.eevee').src = anything;
+  }
+
+  </script>
+</body>
+</html>
